@@ -34,10 +34,10 @@ public class InputValid {
                 System.out.print(notify);
                 myNumber = Integer.parseInt(input.nextLine());
                 if (myNumber < 0) {
-                    throw new Exception("\u001B[31mYou must input a non-negative number\u001B[1m");
+                    throw new Exception("You must input a non-negative number");
                 }
             } catch (Exception e) {
-                System.out.println(e.getMessage() + "\u001B[31m! Please retype your number!\u001B[1m");
+                System.out.println(e.getMessage() + "! Please retype your number!");
                 return inputInteger(notify);
             }
         return myNumber;

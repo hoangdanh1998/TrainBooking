@@ -18,7 +18,7 @@ public class Menu extends IntSLList<String> {
     }
     
     public  void Success(String action) {
-        System.out.println("\u001B[32m" + action + " successfully!\u001B[0m");
+        System.out.println(action + " successfully!");
     }
     
     public  String headerBooking() {
